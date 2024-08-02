@@ -1,6 +1,18 @@
 # AI-for-Conservation-Horizon-Scan
 This contains the code to run the analysis for the AI for Conservation Horizon Scan 2024.
 
+# Analysing the scoring from the first round
+
+Set the working directory to the folder that contains the completed score sheets.
+
+For the code to work as written, the scoresheet headers would need to be: Application_ID, Category,	Title,	User Score (1 - 1000),	Notes
+
+The Idea_Names_First_Round.csv file is required to run this code, as written. This serves as a groundtruth for which Application ID links to which idea title.
+
+The code creates a table with the idea rank for each participant, an overall median rank for each idea, and an overall rank for each idea.
+
+# Horizon Scan Workshop Analysis Code
+
 Set the working directory to the folder that contains the completed score sheets.
 
 For the code to work as written, the scoresheet headers would need to be: Application_ID, Category,	Title,	User Score (1 - 1000),	Notes
@@ -22,5 +34,7 @@ FR = PR*DF
 Where FR is the final rank, PR is the rank given when all partially scored ideas are ranked and DF denotes the division factor. 
 
 This creates a buffer in the ranking scale that allows for the possibility that ideas unranked by a participant could potentially be ranked higher than their partially ranked ideas if they were to be evaluated. This adjustment expands the range of the partial rankings to align with a full ranking scale, leaving space for potentially unranked items between them. Ideas that were not scored by a participant, did not have a rank imputed and were left blank. Therefore, participants only contributed to the ranking of items they were present to score.
+
+The code creates a table with the idea rank for each participant, an overall median rank for each idea, and an overall rank for each idea.
 
 If you have any issues with the code, please contact me. 
