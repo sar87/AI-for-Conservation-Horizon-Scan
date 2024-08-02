@@ -5,9 +5,9 @@ library(dplyr)
 library(data.table)
 
 #Set Working Directory
-setwd("C:/Users/sar87/OneDrive - University of Cambridge/Documents/AIdeas/Horizon Scan/Workshop Results/All_Participant_Sheets")
+setwd("xxx")
 #This is a file which contains the list of idea titles and the unique idea ID numbers
-Idea_Names_Master<-read.csv("C:/Users/sar87/OneDrive - University of Cambridge/Documents/AIdeas/Horizon Scan/Idea_Names/Idea_Names_Workshop.csv")
+Idea_Names_Master<-read.csv("xxx/Idea_Names_Workshop.csv")
 
 All_files <- list.files() #Empty list from working directory
 Partial_files <- list() #Empty list for the partially complete files
