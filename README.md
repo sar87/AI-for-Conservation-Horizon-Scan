@@ -38,3 +38,7 @@ This creates a buffer in the ranking scale that allows for the possibility that 
 The code creates a table with the idea rank for each participant, an overall median rank for each idea, and an overall rank for each idea.
 
 If you have any issues with the code, please contact me. 
+
+# Authorship
+
+Code was written by Dr Sam A. Reynolds (Conservation Science Group, Department of Zoology, Cambridge University, The David Attenborough Building, Pembroke Street, Cambridge CB2 3QZ, UK) and Dr Eleanor R. Tew (Forestry England, 620 Bristol Business Park, Coldharbour Lane, Bristol BS16 1EJ, United Kingdom).
