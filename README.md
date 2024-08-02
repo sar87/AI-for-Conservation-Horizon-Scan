@@ -3,7 +3,9 @@ This contains the code to run the analysis for the AI for Conservation Horizon S
 
 Set the working directory to the folder that contains the completed score sheets.
 
-For the code to work as written, the scoresheet headers would need to be: Category,	Title,	User Score (1 - 1000),	Notes
+For the code to work as written, the scoresheet headers would need to be: Application_ID, Category,	Title,	User Score (1 - 1000),	Notes
+
+The Idea_names_master.csv file is required to run this code, as written. This serves as a groundtruth for which Application ID links to which idea title. 
 
 This code takes in all the scoresheets and calculates the median rank for each idea, accross all participants. It also deals with combining score sheets where all ideas were scored, with scoresheets that were only partially complete. This is described below:
 
